@@ -1,5 +1,6 @@
 import express from "express";
 import db_connection from "./Config/db_connection.js";
+import Userrouter from "./Routes/UserRoutes.js";
 
 import dotenv from "dotenv";
 
@@ -11,6 +12,8 @@ app.use(express.json());
 dotenv.config();
 
 db_connection();
+
+app.use("/api/user",Userrouter)
 
 console.log("I am pro in express");
 app.listen(port, () => {
