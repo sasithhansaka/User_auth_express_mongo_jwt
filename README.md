@@ -12,3 +12,21 @@ Follow these steps to set up the project locally.
 Node.js (v14 or later),
 MongoDB,
 npm or yarn package manager
+
+### Clone the repository
+    git clone https://github.com/yourusername/user-authentication-api.git
+    cd user-authentication-api
+### Install dependencies
+    npm install
+### Configure environment variables
+#### Create a .env file in the root directory and add the following
+    PORT=5002
+    MONGO_URI=your_mongodb_connection_string
+    ACCESS_TOKEN=your_access_token_secret
+### Start the development server
+    npm run dev
+### The server will run at http://localhost:3000.
+
+
+
+
