@@ -1,8 +1,6 @@
 import express from "express";
 import { registerUser,LoginUser,currentUser} from "../Controller/UserController.js";
 import validateToken from "../Middlewear/ValidateTokenHandler.js";
-
-
 const Userrouter = express.Router();
 
 Userrouter.post("/register-user", registerUser);
