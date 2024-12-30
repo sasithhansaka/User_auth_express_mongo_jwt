@@ -13,12 +13,12 @@ Node.js (v14 or later),
 MongoDB,
 npm or yarn package manager
 
-### Clone the repository
+#### Clone the repository
     git clone https://github.com/yourusername/user-authentication-api.git
     cd user-authentication-api
-### Install dependencies
+#### Install dependencies
     npm install
-### Configure environment variables
+#### Configure environment variables
 #### Create a .env file in the root directory and add the following
     PORT=5002
     MONGO_URI=your_mongodb_connection_string
@@ -27,11 +27,11 @@ npm or yarn package manager
     npm run dev
 - The server will run at http://localhost:3000.
 ## API Endpoints
-### user register
+#### user register
     http://localhost:5002/api/user/register-user	
-### user login
+#### user login
     http://localhost:5002/api/user/login-user
-### current user
+#### current user
     http://localhost:5002/api/user/current--user
 ## Built With
 - Express.js - Fast, minimalist web framework for Node.js
@@ -39,7 +39,7 @@ npm or yarn package manager
 - MongoDB - Flexible NoSQL database for user datal
 - Node.js crypto - Native cryptography library for password hashing
 
-- Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
+##### Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
 
 
 
