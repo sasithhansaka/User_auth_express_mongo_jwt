@@ -25,8 +25,25 @@ npm or yarn package manager
     ACCESS_TOKEN=your_access_token_secret
 ### Start the development server
     npm run dev
-### The server will run at http://localhost:3000.
+- The server will run at http://localhost:3000.
+## API Endpoints
+### user register
+    http://localhost:5002/api/user/register-user	
+### user login
+    http://localhost:5002/api/user/login-user
+### current user
+    http://localhost:5002/api/user/current--user
+### Built With
+- Express.js - Fast, minimalist web framework for Node.js
+- JWT - Secure and compact token authentication
+- MongoDB - Flexible NoSQL database for user datal
+- Node.js crypto - Native cryptography library for password hashing
 
+- Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
+
+
+
+  
 
 
 
